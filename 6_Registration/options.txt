@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\NT_course\LoadRunner_saves\6_Registration
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\nt_course\loadrunner_saves\6_registration\\logfile.log
+d:\nt_course\loadrunner_saves\6_registration\\combined_6_Registration.c
+d:\nt_course\loadrunner_saves\6_registration\\pre_cci.c

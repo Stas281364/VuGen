@@ -1,0 +1,35 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t3.inf",
+                "time": 1731827622639
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t4.inf",
+                "time": 1731827623023
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "1_transaction_LogIn",
+                "rawStartTime": 1731827621969,
+                "rawEndTime": 1731827623026,
+                "thinkTime": 0.0,
+                "wastedTime": 0.15081071853637696
+            },
+            {
+                "transactionName": "FULL-transaction_LogIn-LogOut",
+                "rawStartTime": 1731827621953,
+                "rawEndTime": 1731827623041,
+                "thinkTime": 0.0,
+                "wastedTime": 0.15081071853637696
+            }
+        ]
+    }
+]

@@ -1,0 +1,15 @@
+POST /cgi-bin/login.pl HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Referer: http://localhost:1080/cgi-bin/nav.pl?in=home
+Origin: http://localhost:1080
+Upgrade-Insecure-Requests: 1
+Priority: u=4
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept-Encoding: gzip, deflate, zstd
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept: */*
+Connection: Keep-Alive
+Host: localhost:1080
+Cookie: MSO=SID&1731341081&MSO_SLoad&on&MSO_SErrors&on&MSO_ServerErrorsProb&10&MSO_ServerLoadProb&10
+Content-Length: 125
+

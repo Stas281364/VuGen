@@ -1,0 +1,94 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t3.inf",
+                "time": 1731340509125
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t4.inf",
+                "time": 1731340509415
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t5.inf",
+                "time": 1731340509635
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t6.inf",
+                "time": 1731340509813
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t7.inf",
+                "time": 1731340509959
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t8.inf",
+                "time": 1731340510108
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "1_transaction_ToWebTours",
+                "rawStartTime": 1731340508782,
+                "rawEndTime": 1731340509142,
+                "thinkTime": 0.0,
+                "wastedTime": 0.10383439064025879
+            },
+            {
+                "transactionName": "2_transaction_LogIn",
+                "rawStartTime": 1731340509158,
+                "rawEndTime": 1731340509427,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008047342300415039
+            },
+            {
+                "transactionName": "3_transaction_ToFlights",
+                "rawStartTime": 1731340509460,
+                "rawEndTime": 1731340509662,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006268978118896484
+            },
+            {
+                "transactionName": "4_transaction_ÑhooseTicket",
+                "rawStartTime": 1731340509679,
+                "rawEndTime": 1731340509822,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0034003257751464845
+            },
+            {
+                "transactionName": "5_transaction_PaymentDetails",
+                "rawStartTime": 1731340509855,
+                "rawEndTime": 1731340509963,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003306865692138672
+            },
+            {
+                "transactionName": "6_transaction_EndBooking",
+                "rawStartTime": 1731340509995,
+                "rawEndTime": 1731340510122,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004117250442504883
+            },
+            {
+                "transactionName": "Full-transaction_SearchTicketNoBuy",
+                "rawStartTime": 1731340508767,
+                "rawEndTime": 1731340510137,
+                "thinkTime": 0.0,
+                "wastedTime": 0.12897515296936036
+            }
+        ]
+    }
+]

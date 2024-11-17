@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\NT_course\LoadRunner_saves\3_BookingFlight
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\nt_course\loadrunner_saves\3_bookingflight\\logfile.log
+d:\nt_course\loadrunner_saves\3_bookingflight\\combined_3_BookingFlight.c
+d:\nt_course\loadrunner_saves\3_bookingflight\\pre_cci.c

@@ -1,0 +1,68 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t3.inf",
+                "time": 1731430087800
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t4.inf",
+                "time": 1731430088067
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t31.inf",
+                "time": 1731430088710
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: itinerary.pl",
+                "infFile": "t32.inf",
+                "time": 1731430088832
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "1_transaction_ToWebTours",
+                "rawStartTime": 1731430086753,
+                "rawEndTime": 1731430087827,
+                "thinkTime": 0.0,
+                "wastedTime": 0.12866473197937013
+            },
+            {
+                "transactionName": "2_transaction_Login",
+                "rawStartTime": 1731430087842,
+                "rawEndTime": 1731430088074,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007122039794921875
+            },
+            {
+                "transactionName": "3_transaction_To_Itinerary",
+                "rawStartTime": 1731430088105,
+                "rawEndTime": 1731430088712,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06793475151062012
+            },
+            {
+                "transactionName": "4_transaction_Delete_way",
+                "rawStartTime": 1731430088728,
+                "rawEndTime": 1731430088838,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004688262939453125
+            },
+            {
+                "transactionName": "Full_transaction_DeleteBoking",
+                "rawStartTime": 1731430086738,
+                "rawEndTime": 1731430088854,
+                "thinkTime": 0.0,
+                "wastedTime": 0.20840978622436524
+            }
+        ]
+    }
+]

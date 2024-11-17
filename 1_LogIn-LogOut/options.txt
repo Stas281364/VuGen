@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\NT_course\LoadRunner_saves\VuGen\1_LogIn-LogOut
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\nt_course\loadrunner_saves\vugen\1_login-logout\\logfile.log
+d:\nt_course\loadrunner_saves\vugen\1_login-logout\\combined_1_LogIn-LogOut.c
+d:\nt_course\loadrunner_saves\vugen\1_login-logout\\pre_cci.c

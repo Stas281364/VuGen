@@ -1,0 +1,98 @@
+Virtual User Script started at: 17.11.2024 12:12:07
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\NT_course\LoadRunner_saves\VuGen\1_LogIn-LogOut\\default.cfg"  	[MsgId: MMSG-27141]
+Vuser directory: "D:\NT_course\LoadRunner_saves\VuGen\1_LogIn-LogOut"  	[MsgId: MMSG-27052]
+Vuser output directory: "D:\NT_course\LoadRunner_saves\VuGen\1_LogIn-LogOut"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "d:\nt_course\loadrunner_saves\vugen\1_login-logout"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2024-11-17 07:12:07  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2024-11-17 12:12:07  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : No  	[MsgId: MMSG-26990]
+Some of the Runtime Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-27171]
+    DNS caching: Yes  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: None  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 120  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-27028]
+    ContentCheck script-level file: "D:\NT_course\LoadRunner_saves\VuGen\1_LogIn-LogOut\LrwiAedScript.xml"  	[MsgId: MMSG-27027]
+    Enable Web Page Breakdown: Yes  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: No  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26998]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 10  	[MsgId: MMSG-26995]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): Notify: Transaction "FULL-transaction_LogIn-LogOut" started.
+Action.c(6): Notify: Transaction "1_transaction_LogIn" started.
+Action.c(8): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(8): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(10): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(10): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_add_auto_header("Priority") started  	[MsgId: MMSG-26355]
+Action.c(12): An unrecognized header ("Priority") is being added  	[MsgId: MMSG-26595]
+Action.c(12): "Priority: u=4" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(12): web_add_auto_header("Priority") was successful  	[MsgId: MMSG-26392]
+Action.c(15): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(15): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+Action.c(15): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(15): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(19): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(19): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(22): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(22): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(34): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(34): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(43): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+Action.c(43): t=679ms: Connecting [0] to host 127.0.0.1:1080  	[MsgId: MMSG-26000]
+Action.c(43): Error -27792: Failed to connect to server "localhost:1080": [10061] Connection refused  	[MsgId: MERR-27792]
+Action.c(43): t=2700ms: Closed connection [0] to localhost:1080 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Action.c(43): Search registration for "userSession" parameter is filtered by "Content Type"  	[MsgId: MMSG-26000]
+Action.c(43): Search registration for "MSO" parameter is filtered by "Scope"  	[MsgId: MMSG-26000]
+Action.c(43): Notify: Saving Parameter "userSession = ".
+Action.c(43): Error -35048: No match found for the requested parameter "userSession". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+Action.c(43): Notify: Saving Parameter "MSO = ".
+Action.c(43): Error -35049: No match found for the requested parameter "MSO". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+Action.c(43): Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(43): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively.  	[MsgId: MERR-26374]
+Action.c(43): web_url("welcome.pl") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+Action.c(43): Notify: Transaction "1_transaction_LogIn" ended with a "Fail" status (Duration: 2.3118 Wasted Time: 0.1045).
+Action.c(43): Notify: Transaction "1_transaction_LogIn" has 3 error message(s).
+Action.c(43): Notify: The 1st error message associated with transaction "1_transaction_LogIn" is "Error -27792: Failed to connect to server "localhost:1080": [10061] Connection refused"
+Action.c(43): Notify: The 2nd error message associated with transaction "1_transaction_LogIn" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+Action.c(43): Notify: The 3rd error message associated with transaction "1_transaction_LogIn" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+Action.c(43): Notify: Transaction "FULL-transaction_LogIn-LogOut" ended with a "Fail" status (Duration: 2.3274 Wasted Time: 0.1045).
+Action.c(43): Notify: Transaction "FULL-transaction_LogIn-LogOut" has 3 error message(s).
+Action.c(43): Notify: The 1st error message associated with transaction "FULL-transaction_LogIn-LogOut" is "Error -27792: Failed to connect to server "localhost:1080": [10061] Connection refused"
+Action.c(43): Notify: The 2nd error message associated with transaction "FULL-transaction_LogIn-LogOut" is "Error -26366: "Text=Welcome to the Web Tours site" not found for web_reg_find"
+Action.c(43): Notify: The 3rd error message associated with transaction "FULL-transaction_LogIn-LogOut" is "Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 0 and 0, respectively."
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

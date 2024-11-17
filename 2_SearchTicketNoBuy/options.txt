@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\NT_course\LoadRunner_saves\2_SearchTicketNoBuy
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\nt_course\loadrunner_saves\2_searchticketnobuy\\logfile.log
+d:\nt_course\loadrunner_saves\2_searchticketnobuy\\combined_2_SearchTicketNoBuy.c
+d:\nt_course\loadrunner_saves\2_searchticketnobuy\\pre_cci.c

@@ -1,0 +1,55 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t2.inf",
+                "time": 1731607559802
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: sign up now",
+                "infFile": "t3.inf",
+                "time": 1731607560045
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t4.inf",
+                "time": 1731607560223
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "1_transaction_ToWebTors",
+                "rawStartTime": 1731607559423,
+                "rawEndTime": 1731607559879,
+                "thinkTime": 0.0,
+                "wastedTime": 0.1114201545715332
+            },
+            {
+                "transactionName": "2_transaction_ToSingUp",
+                "rawStartTime": 1731607559895,
+                "rawEndTime": 1731607560053,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005409717559814453
+            },
+            {
+                "transactionName": "3_transaction_CustomerProfile",
+                "rawStartTime": 1731607560068,
+                "rawEndTime": 1731607560225,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0040433406829833988
+            },
+            {
+                "transactionName": "Full_transaction_Regisrtation",
+                "rawStartTime": 1731607559408,
+                "rawEndTime": 1731607560241,
+                "thinkTime": 0.0,
+                "wastedTime": 0.12087321281433106
+            }
+        ]
+    }
+]
